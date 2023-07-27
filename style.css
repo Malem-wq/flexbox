@@ -1,0 +1,61 @@
+div {
+   font-family: Cambria;
+   background-color: black;
+   color: gold;
+   font-size: 32px;
+   padding: 5px;
+}
+
+
+nav {
+   background-color: black;
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+
+img {
+   width: 60px;
+}
+
+.element{
+   border-radius: 200px;
+   height: 30px;
+   padding-top: 0px;
+   margin-top: 10px;
+ }
+ 
+.element:hover {
+   background-color: gold;
+   color: black;
+   cursor:grab;
+}
+
+@media(max-with: 530px) {
+   h1 {
+      background-color: blue;
+   }
+
+   p {
+      font-size: 150%;
+   }
+
+   .card {
+      width: 80%;
+   }
+}
+@media(max-width: 1030px) {
+   h1{
+      background-color: blue;
+   }
+
+   p {
+      font-size: 150%;
+   }
+
+   .image {
+      width: 80%;
+   }
+
+
+}
